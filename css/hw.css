@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 125px 308px 0 290px;
+	background-color: #e8e8e8;
+}
+
+.top{
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin: 0 0 24px 0;
+	font-weight: 600;
+}
+
+.allblock li{
+	font-size: 20px;
+	color: #273d46;
+	padding: 0 0 0 34px;
+	background: url(../img/check_icon_1.png) left no-repeat;
+}
+
+.content{
+margin: 0 0 81px 0;
+}
+
+.contentblock li{
+	margin: 0 0 12px 0;
+}
+
+.contentblock li:nth-child(1){
+	text-decoration: line-through;
+}
+.contentblock li:nth-child(2){
+	font-weight: 700;
+}
+.contentblock li:nth-child(3){
+	font-style: italic;
+}
+.contentblock li:nth-child(4){
+	text-transform: uppercase;
+}
+
+.listblock{
+	margin: 0 0 137px 0;
+}
+
+.listblock li{
+	margin: 0 0 15px 0;
+}
+
+.allblock li:hover{
+	background: url(../img/check_icon_2.png) left no-repeat;
+	color: red;
+}
+
+/*
+.listblock li:nth-child(2):hover{
+	background: url(../img/check_icon_2.png) left no-repeat;
+	color: red;
+}
+*/
+
+.content-bottom-infolink{
+	width: 199px;
+	height: 44px;
+	display: inline-block;
+	background-color: #80b7b3;
+	border-radius: 24px;
+	line-height: 44px;
+	padding: 0 27px;
+	margin: 0 0 125px 0;
+}
+
+.content-bottom-infolink span{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	padding: 0 30px 0 0;
+	background: url(../img/Shape_2.png) right no-repeat;
+}
+
+.content-bottom-infolink:hover{
+	background: #3a5856;
+	box-shadow: 0 0 20px rgba(58, 88, 86, 0.4);
+}
+.content-bottom-infolink:active{
+	background: #818181;
+}
+
+.textimput{
+	border: 1px solid grey;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0 0 10px 0;
+}
+
+.textimput:focus{
+	box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+	border: 1px solid #7fbed5;
+}
+
+.alltext{
+	font-size: 18px;
+	max-width: 770px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+.text p{
+	margin: 0 0 43px 0;
+}
+
+.text p:first-child:first-line{
+	color: red;
+}
+
+.text p:nth-child(2)::first-letter{
+	font-size: 24px;
+	color: red;
+}
